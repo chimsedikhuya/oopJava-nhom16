@@ -2,15 +2,18 @@ import java.util.Scanner;
 
 public class Slide47 {
     public static void main(String[] args) {
-        int sum = 0;
+        int tong = 0;
+        String sum ="" ;
         Scanner sc = new Scanner(System.in);
         do {
             System.out.println("Nhap vao 1 so nguyen duong :");
             int x = sc.nextInt();
-            sum += x; 
+            tong += x ;
+            sum =(sum +"+"+ x);  
         }
-        while (sum <= 100);
+        while (tong <= 100);
         sc.close();
-        System.out.println("Tong da lon hon 100,gia tri cua tong la:" + sum);
+        System.out.print("Tong da lon hon 100,gia tri cua tong la:" + sum);
+        System.out.print("=" + tong);
     }
 }
