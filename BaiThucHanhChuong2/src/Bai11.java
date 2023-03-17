@@ -1,4 +1,4 @@
-public class App {
+public class Bai11 {
     public static void main(String[] args) {
         int[] arr = { 5, 2, 8, 4, 7};
 
@@ -11,7 +11,7 @@ public class App {
                 }
             }
         }
-        System.out.println("Mảng đã sắp xếp theo thứ tự tăng dần:");
+        System.out.println("Mang da sap xep theo thu tu tang dan la:");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
